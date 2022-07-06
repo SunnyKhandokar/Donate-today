@@ -3,7 +3,7 @@ body{
     margin: 0%;
     }
 .top-area{
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/donation13.jpg);
    background-size: cover;
    opacity: .8;
 }
@@ -25,7 +25,7 @@ body{
     margin: 10px;
     text-align: center;
     width: 100%;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 100;
     padding-top: 10px;
     padding-bottom: 28px;
@@ -34,7 +34,77 @@ body{
     color: white;
     background-image: linear-gradient(orange, tomato);
     text-decoration: none;
+    box-shadow: 2px 5px 20px rgb(2, 255, 145);
     padding: 13px 30px;
     border-radius: 7px;
     font-size: 20px;
+}
+.donate-area{
+    padding: 100px;
+    text-align: center;
+}
+.donate-area h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 13px 0;
+}
+.donate-area p{
+    text-align: center;
+    margin: 0%;
+    width: 100%;
+    font-size: 19px;
+}
+.amount{
+    margin-left: 15px;
+    width: 10%;
+    background-color: rgb(229, 224, 224);
+    border-radius: 7px;
+}
+.amount h2{
+    text-align: center;
+   padding: 7px;
+}
+#common-donate{
+    background-color: rgb(247, 245, 243);
+    border: 2px solid tomato;
+    width: 10%;
+    padding: 7px;
+    text-align: center;
+    border-radius: 7px;
+}
+#common-donate h2{
+    color: tomato;
+}
+#taka-input{
+    font-size: 20px;
+    padding: 7px 300px;
+    border: none;
+    display: block;
+    border-bottom: 2px solid rgb(197, 191, 191);
+}
+#donate-now{
+    display: inline-block;
+    margin: 40px 0;
+    margin-left: 470px;
+    display: inline-block;
+}
+.plan{
+    display: flex;
+    padding: 50px 0;
+}
+.example{
+    width: 30%;
+    margin-left: 2%;
+    background-color: rgb(255, 240, 237);
+}
+.donate-plan h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 11px;
+}
+.donate-plan p{
+    text-align: center;
+    font-size: 19px;
+    width: 50%;
+    margin: 0%;
 }
