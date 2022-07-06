@@ -107,4 +107,68 @@ body{
     font-size: 19px;
     width: 50%;
     margin: 0%;
+    color: rgb(134, 134, 134);
+}.Contribute{
+    display: flex;
+    padding: 73px 0;
+}
+.area {
+    width: 50%;
+    margin-left: 3%;
+}
+.area img {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.area h1 {
+    font-size: 50px;
+}
+.area p {
+    width: 70%;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.update {
+    text-align: center;
+    padding: 100px 0;
+}
+.update h1 {
+    font-size: 60px;
+    margin: 0;
+}
+.email {
+    background: rgb(255, 235, 232);
+    width: 70%;
+    margin: 60px auto;
+    padding: 70px 0;
+}
+.email input {
+    font-size: 16px;
+    background-color: rgb(252, 224, 224);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px 0 0 5px;
+}
+.email button {
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    font-size: 16px;
+}
+footer {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+footer h2 {
+    color: rgb(236, 75, 75);
+    margin: 0;
+}
+footer p {
+    margin: 0;
+    font-size: 14px;
 }
